@@ -1,4 +1,13 @@
 <?php
+
+/*
+  Ce script réalisé en février 2013 par Rannios (http://rannios.free.fr) a pour but de réaliser automatiquement
+  des fiches de présentations de films, musiques, logiciels ou livres, à poster sur le forum http://forum.mega-search.ws
+  qui référence un maximum de liens Mega (http://mega.co.nz).
+  Rannios a fait don de cet ensemble de programmes le 8 avril 2013. Il peut en faire ce qu'il veut, c'est-à-dire
+  l'utiliser, le modifier, l'implémenter, le compléter, etc.
+*/
+
 header('Content-Type: text/html; charset=ISO-8859-1');
 $file_affluence = fopen('affluence.txt', 'r+');
 $affluence = fgets($file_affluence) + 1;
